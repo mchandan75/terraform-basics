@@ -2,7 +2,7 @@ variable "ami" {
   type = map(string)
 
   default = {
-    "us-east-1" = "ami-25488752"
+    "us-east-1" = "ami-05548f9cecf47b442"
   }
 }
 

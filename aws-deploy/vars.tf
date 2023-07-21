@@ -2,7 +2,7 @@ variable "ami" {
   type = map(string)
 
   default = {
-    "eu-west-1" = "ami-25488752"
+    "us-east-1" = "ami-25488752"
   }
 }
 
@@ -15,5 +15,5 @@ variable "instance_type" {
 }
 
 variable "aws_region" {
-  default = "eu-west-1"
+  default = "us-east-1"
 }
